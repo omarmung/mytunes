@@ -24,6 +24,6 @@ var SongQueue = Backbone.Collection.extend({
 
   playFirst: function() {
     // ADD FUNCTIONALITY
-    // app.set('currentSong', this.at(0));
+    this.at(0).play();
   }
 });
